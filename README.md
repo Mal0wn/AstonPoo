@@ -4,4 +4,6 @@
 and ts-node index 
 
 
- 
+## Diagramme
+![diagramme](./assets/image.png)
+
