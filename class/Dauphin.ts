@@ -21,5 +21,11 @@ respirerSousLeau(): void {
 cliquetter(): void {
  console.log("Bruit chelou du dauphin")
 }
+/**
+ * Methoodee retenir respiration proopre au dauphin
+ */
+retenirRespiration(): void {
+console.log(" Mode Petit Gregory Activé")
+}
 
 }
