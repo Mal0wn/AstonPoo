@@ -12,3 +12,4 @@ monChat.miauler();
 monChat.display();
 monDauphin.cliquetter();
 monDauphin.display();
+monDauphin.respirerSousLeau();
