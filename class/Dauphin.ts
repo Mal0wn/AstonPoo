@@ -15,6 +15,9 @@ respirerSousLeau(): void {
 	console.log("bloup bloup")
 }
 
+/**
+ * Methode cliquetter propree au dauphin
+ */
 cliquetter(): void {
  console.log("Bruit chelou du dauphin")
 }

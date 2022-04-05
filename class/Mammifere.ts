@@ -16,6 +16,7 @@ constructor( dateNaissance : Date , nom : string , poids : number) {
 
 
 display(): void {
+//Pour avoir la date en français
 let dateToFrench = '0'+this.dateNaissance.getDate() + '/0' + ((this.dateNaissance.getMonth())) + '/' + this.dateNaissance.getFullYear()
 
 	console.log(`
@@ -25,9 +26,8 @@ let dateToFrench = '0'+this.dateNaissance.getDate() + '/0' + ((this.dateNaissanc
     `);
 }
 
+// Getter & Setter
 get dateNaissance(): Date {
-
-
     return this._dateNaissance;
 }
 set dateNaissance(value: Date) {

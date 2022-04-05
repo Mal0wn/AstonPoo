@@ -4,7 +4,9 @@ import { Mammifere } from "./Mammifere";
 export class Chat extends Mammifere implements Terrestre {
 
 
-
+/**
+ * Methode miauler propre au chat
+ */
 miauler(): void {
  console.log("miaou")
 }
